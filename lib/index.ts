@@ -28,7 +28,7 @@ export interface OpenOptions {
   stopBits?: 1 | 1.5 | 2
   parity?: string
   /** Flow control Setting. Defaults to false */
-  rtscts?: boolean
+  cts?: boolean
   /** Flow control Setting. Defaults to false */
   xon?: boolean
   /** Flow control Setting. Defaults to false */
